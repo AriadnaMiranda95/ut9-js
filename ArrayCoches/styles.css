@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+:root {
+    --main-font: "Bebas Neue", cursive;
+    --back-color: rgb(236, 236, 236);
+    --card-color: #ffffffdd;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: var(--main-font);
+    text-align: center;
+    margin: 1em;
+}
+
+.contenedor{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+.tarjeta {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.1);
+    margin: 1.5em;
+    font-family: var(--main-font);
+    font-size: 1.1em;
+    
+    
+}
+
+.coche{
+    background-color: thistle;
+    margin: .5em;
+    padding: .5em;
+    
+}
+
+.propietario{
+    background-color: rgb(188, 245, 239);
+    margin: .5em;
+    padding: .5em;
+    
+}
